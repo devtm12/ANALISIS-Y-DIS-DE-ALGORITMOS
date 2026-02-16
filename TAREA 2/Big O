@@ -1,0 +1,19 @@
+ALGORITMO DE BIG O 
+- Inicio
+  - Da un algoritmo 
+  - pasos ← lista de operaciones de A
+
+  - Identificar si depende del tamaño de la entrada n
+    Clasificar:
+      - Constante → O(1)
+      - Lineal → O(n)
+      - Cuadrática → O(n^2)
+      - Logarítmica → O(log n)
+      - Otro patrón → según el caso
+
+  Combinar las complejidades de cada bloque
+  Conservar el término de mayor crecimiento
+  Resultado ← Complejidad Big O del algoritmo 
+
+  Mostrar Resultado
+Fin
