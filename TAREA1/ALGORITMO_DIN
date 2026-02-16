@@ -1,0 +1,33 @@
+ALGORITMO DEL DINOSAURIO DE CHROME
+-Inicio
+-puntos ← 0
+-velocidad ← 1
+-juegoActivo ← Verdadero
+
+-    juegoActivo == Verdadero
+    Generar obstáculo aleatorio
+    Jugador  // saltar, agacharse o nada
+
+-    Si Jugador == "saltar" entonces
+      Ejecutar salto
+    SiNo
+-      Si Jugador == "agacharse" entonces
+        Ejecutar agacharse
+      FinSi
+    FinSi
+- Mover el obstáculo hacia la izquierda con velocidad constante.
+- Comprobar si el dinosaurio choca con el obstáculo.
+
+-    Si colisión == Verdadero entonces
+      juegoActivo ← Falso
+-    SiNo
+      puntos ← puntos + 1
+      Si puntos % 100 == 0 entonces
+        velocidad ← velocidad + 1
+      FinSi
+    FinSi
+  FinMientras
+
+-  Mostrar "Juego terminado"
+-  Mostrar puntos
+- Fin
