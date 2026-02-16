@@ -4,7 +4,7 @@ ALGORITMO DEL DINOSAURIO DE CHROME
 -velocidad ← 1
 -juegoActivo ← Verdadero
 
--    juegoActivo == Verdadero
+-   Mientras juegoActivo == Verdadero
     Generar obstáculo aleatorio
     Jugador  // saltar, agacharse o nada
 
